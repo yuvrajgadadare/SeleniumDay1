@@ -35,7 +35,7 @@ public class FirstTestDay {
 		WebElement btn=driver.findElement(By.id("btnlogin"));
 		btn.click();
 		try {
-				Thread.sleep(4000);
+				Thread.sleep(4000)
 		}
 		catch(Exception ex) {}
 //		WebElement m=driver.findElement(By.id("msg"));
