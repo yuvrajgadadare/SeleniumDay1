@@ -8,7 +8,7 @@ public class FirstTestDay {
 
 	public void FirstTest() {
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://ciitinstitute.com/");
+		driver.get("https://ciitinstitute.com/")
 		driver.manage().window().maximize();
 		String url=driver.getCurrentUrl();
 		String title=driver.getTitle();
